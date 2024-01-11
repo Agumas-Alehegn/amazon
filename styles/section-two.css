@@ -1,0 +1,151 @@
+.section-two{
+ width: 100vw;
+}
+.all-items-grid{
+ /* display: grid;
+  grid-template-columns:repeat(4, 1fr);
+  position: relative;*/
+  row-gap: 20px;
+  
+ /* padding: 20px 0px;
+  align-items: center;
+  justify-content: space-between;
+  color: #0f1111;
+  max-width: 1240px;*/}
+
+@media(min-width:1239px){
+  .all-items-grid{
+  display: grid;
+  grid-template-columns:repeat(4,1fr);
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+  color: #0f1111;
+  }
+}
+
+@media(max-width:1239px){
+  .all-items-grid{
+  display: grid;
+  grid-template-columns:repeat(3,1fr);
+  }
+}
+@media(max-width:1000px){
+  .all-items-grid{
+  grid-template-columns: repeat(3, 315px);
+  }
+}
+ 
+.items-grid-cover{
+  width: 100%;
+  height: 420px;
+  padding:0 10px;
+ 
+}
+.grouped-items-grid{
+  background-color:  white;
+  padding:20px 0 15px;
+  height: 100%;
+  width:  100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+ 
+}
+.items-wrap{
+  display: grid;
+  grid-template-columns: 1fr;
+  padding:0px 20px;
+  color: #0f1111;
+  font-size: 13px; 
+  justify-content: space-between;
+  align-items: center;
+  row-gap: 20px;
+
+}
+.items-contianer{
+  display:  grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 15px;
+  row-gap: 10px;
+  margin-bottom: 10px;
+}
+
+.grouped-items-grid h2{
+  font-size: 21px;
+  font-weight: 700;
+  padding: 0px 20px;
+  margin: 0 0 10px;
+  color: #0f1111;
+  
+}
+.grouped-items-grid > a{
+  font-size: 12px;
+  font-weight:500;
+  color: #007185;
+  font-size: 13px;
+  padding: 0 20px;
+  margin: 0 0 30px;
+}
+.grouped-items-grid > a:hover{
+  color: #fc720f;
+  text-decoration: underline;
+  text-decoration-color: #fc720f; 
+}
+.grouped-items-grid .item_2{
+  padding: 0 20px;
+}
+.item a{
+  color: #0F1111;
+  font-size: 12px;
+  font-weight: 500;
+}
+ .item a img{
+  width: 100%;
+ height: 100%;
+ }
+ .personal-section{
+  background-color: rgb(252, 252, 252);
+  position: relative;
+ }
+ .section-wrap{
+  border-top:1px solid rgb(222, 222, 222);
+  border-bottom:1px solid rgb(222, 222, 222);;
+  text-align: center;
+  padding: 30px 0 15px;
+ }
+ .personal-section button{
+  padding: 6px 100px;
+  font-weight: 700;
+  font-size: 12px;
+  color: #0f1111;
+  border-color: #ffe093;;
+  border-radius: 4px;
+  transition: 0.25s;
+  cursor: pointer;
+ }
+ .personal-section button:hover{
+  opacity: 0.8;
+ }
+ .personal-section p 
+ {
+  color: #0F1111;
+  margin-bottom: 5px;
+  font-size: 12px;
+  font-weight: 500;
+ }
+ .personal-section p a{
+  font-size: 11px;
+  color: #007185;;
+ }
+ .personal-section p a:hover{
+  color:rgb(254, 189, 105); 
+  text-decoration: underline;
+  text-decoration-color:rgb(254, 189, 105); 
+ }
+ .personal-section hr{
+  border-color: #f4f4f4;
+ }

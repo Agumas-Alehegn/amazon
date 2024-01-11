@@ -1,0 +1,70 @@
+.section-three {
+  background-color: #ffffff;
+  width: 100vw;
+  height: 280px;
+  padding: 25px 0;
+  margin: 0 10px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+}
+.section-three h2 {
+  color: black;
+  padding-left: 10px;
+  font-size: 21px;
+  font-weight: 700;
+}
+.book-contianer {
+  position: relative;
+  width: 100vw;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.book-slider {
+  display: flex;
+  padding: 010px;
+  flex: 0 0 11%;
+  column-gap: 20px;
+  transition: transform 0.5s ease-in-out;
+}
+.book-slide {
+  height: 200px;
+  object-fit: cover;
+  list-style-type: none;
+}
+.book-slide a img {
+  width: auto;
+  height: 100%;
+}
+.controls {
+  position: absolute;
+  top: 50%;
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(-50%);
+  transition: 0.15s;
+}
+.controls:hover {
+  background-color: rgb(228, 228, 228);
+  width: 40px;
+  height: 80px;
+  border-radius: 3px;
+  border: 2px solid rgb(145, 194, 145);
+  outline: 1px solid white;
+}
+.controls:active {
+  opacity: 0.5;
+}
+.book-prev {
+  left: 10px;
+}
+.book-next {
+  right: 35px;
+}

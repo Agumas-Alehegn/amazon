@@ -1,0 +1,39 @@
+*{ 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  background-repeat: no-repeat;
+  text-decoration: none;
+  font-family: "Amazon Ember",'Arial', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color:white;
+  line-height: 1.5;
+}
+
+body{
+  background-color: #c5d2d9;
+  display: flex;
+  flex-direction: column; 
+  overflow-x: hidden;
+  height: 100%;
+  box-sizing: border-box;
+}
+.main-wrap{
+  display: flex;
+  flex-direction: column;
+  color: #0F1111;
+  background-color: transparent;
+  row-gap: 20px;
+  padding: 0 10px 0 10px;
+}
+ main{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  row-gap: 20px;
+  padding-top:280px;
+ }
+  
